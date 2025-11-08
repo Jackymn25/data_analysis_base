@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("students_messy_127.csv")
+df = pd.read_csv("data/students_messy_127.csv")
 print(df.head())
 
 df.gender = df['gender'].astype('category')

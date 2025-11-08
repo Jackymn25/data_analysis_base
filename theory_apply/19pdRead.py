@@ -48,7 +48,7 @@ if __name__ == "__main__":
     main()
 
     # Task 01 read csv
-    data = pd.read_csv("students_scores_named.csv")
+    data = pd.read_csv("data/students_scores_named.csv")
     print(data.head())
     data['Total'] = data.math + data.English + data.science
     print(data.head())

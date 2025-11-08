@@ -14,7 +14,7 @@ finish the follwing Tasks:
 - 
 """
 
-data = pd.read_csv("students_scores_named.csv")
+data = pd.read_csv("data/students_scores_named.csv")
 print(data.head(3))
 scores = pd.DataFrame(data)
 
