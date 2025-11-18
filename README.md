@@ -2,8 +2,5 @@
 
 tools
 - anaconda
-- numpy
-- pandas
-- matplotlib
-- seaborn
+- python( numpy, pandas, matplotlib, seaborn )
 - RStudio
